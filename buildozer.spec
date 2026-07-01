@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,kv,atlas,db
 version = 1.0
 
 # المكتبات المطلوبة: kivy للواجهة، pycryptodome للتشفير، plyer لمنتقي الملفات
-requirements = python3,kivy==2.3.0,pyjnius==1.6.1,pycryptodome,plyer
+requirements = python3,kivy==2.3.0,pyjnius,pycryptodome,plyer
 
 orientation = portrait
 fullscreen = 1
