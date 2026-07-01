@@ -8,12 +8,11 @@ source.include_exts = py,png,jpg,kv,atlas,db
 
 version = 1.0
 
-# المكتبات المطلوبة: kivy للواجهة، pycryptodome للتشفير، plyer لمنتقي الملفات
+requirements = python3,kivy==2.3.0,pycryptodome,plyer
 
 orientation = portrait
 fullscreen = 1
 
-# صلاحيات أندرويد المطلوبة للوصول للملفات
 android.permissions = READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,MANAGE_EXTERNAL_STORAGE
 
 android.api = 33
